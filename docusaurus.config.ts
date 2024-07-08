@@ -130,10 +130,13 @@ module.exports = {
                 // ... Your options.
                 // `hashed` is recommended as long-term-cache of index file is possible.
                 hashed: true,
-                // For Docs using Chinese, The `language` is recommended to set to:
-                // ```
                 language: ["en", "zh"],
-                // ```
+                indexDocs: true,
+                indexBlog: true,
+                indexPages: true,
+                // Specify multiple base paths for indexing
+                docsRouteBasePath: ['/docs', '/book'],
+                blogRouteBasePath: '/blog',
             }),
         ]
     ]
