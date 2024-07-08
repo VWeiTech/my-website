@@ -52,7 +52,17 @@ module.exports = {
             } satisfies Preset.Options,
         ],
     ],
-
+    plugins: [
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'book',
+                path: 'book',
+                routeBasePath: 'book',
+                sidebarPath: require.resolve('./bookSidebars.js'),
+            },
+        ],
+    ],
     themeConfig: {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
@@ -70,12 +80,13 @@ module.exports = {
                     label: 'Study Notes',
                 },
                 {to: '/blog', label: 'Blog', position: 'left'},
+                {to: '/book/intro', label: 'Book', position: 'left'},
                 {
                     href: 'https://github.com/VWeiTech',
                     label: 'GitHub',
                     position: 'right',
                 },
-            ],
+            ]
         },
         footer: {
             style: 'dark',
@@ -124,6 +135,6 @@ module.exports = {
                 language: ["en", "zh"],
                 // ```
             }),
-        ],
-    ],
+        ]
+    ]
 }
