@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="add mongoDB TTL indexes">
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/feat: add push local code to GitHub note.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <workItem from="1720402698342" duration="10868000" />
       <workItem from="1720417781750" duration="5853000" />
       <workItem from="1720435442680" duration="4844000" />
-      <workItem from="1720661237992" duration="7247000" />
+      <workItem from="1720661237992" duration="10330000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -163,11 +163,30 @@
       <option name="project" value="LOCAL" />
       <updated>1720435852757</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="main/feat: add push local code to GitHub note.">
+      <option name="closed" value="true" />
+      <created>1720682554808</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720682554808</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -176,6 +195,7 @@
     <MESSAGE value="add book to search index" />
     <MESSAGE value="add acronym glossary" />
     <MESSAGE value="add mongoDB TTL indexes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mongoDB TTL indexes" />
+    <MESSAGE value="main/feat: add push local code to GitHub note." />
+    <option name="LAST_COMMIT_MESSAGE" value="main/feat: add push local code to GitHub note." />
   </component>
 </project>
