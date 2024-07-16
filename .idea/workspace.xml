@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/feat: add push local code to GitHub note.">
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/feat: add Java Keystore and Truststore difference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,10 @@
       <workItem from="1720402698342" duration="10868000" />
       <workItem from="1720417781750" duration="5853000" />
       <workItem from="1720435442680" duration="4844000" />
-      <workItem from="1720661237992" duration="10330000" />
+      <workItem from="1720661237992" duration="12442000" />
+      <workItem from="1721004919964" duration="582000" />
+      <workItem from="1721005516769" duration="124000" />
+      <workItem from="1721009501498" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -171,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720682554808</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="main/feat: add Java Keystore and Truststore difference">
+      <option name="closed" value="true" />
+      <created>1720685518570</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720685518570</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +207,7 @@
     <MESSAGE value="add acronym glossary" />
     <MESSAGE value="add mongoDB TTL indexes" />
     <MESSAGE value="main/feat: add push local code to GitHub note." />
-    <option name="LAST_COMMIT_MESSAGE" value="main/feat: add push local code to GitHub note." />
+    <MESSAGE value="main/feat: add Java Keystore and Truststore difference" />
+    <option name="LAST_COMMIT_MESSAGE" value="main/feat: add Java Keystore and Truststore difference" />
   </component>
 </project>
