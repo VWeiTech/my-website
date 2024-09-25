@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/feat: add how to get ca from website">
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/feat: add apple could not verify free of malware">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +99,7 @@
       <workItem from="1721869898402" duration="598000" />
       <workItem from="1721876958772" duration="599000" />
       <workItem from="1724230540481" duration="1311000" />
-      <workItem from="1727226953854" duration="1557000" />
+      <workItem from="1727226953854" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -214,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724231063099</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="main/feat: add apple could not verify free of malware">
+      <option name="closed" value="true" />
+      <created>1727228740684</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727228740684</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +250,7 @@
     <MESSAGE value="main/feat: add UML" />
     <MESSAGE value="main/feat: add MongoInvalidArgumentError - Update document requires atomic operators" />
     <MESSAGE value="main/feat: add how to get ca from website" />
-    <option name="LAST_COMMIT_MESSAGE" value="main/feat: add how to get ca from website" />
+    <MESSAGE value="main/feat: add apple could not verify free of malware" />
+    <option name="LAST_COMMIT_MESSAGE" value="main/feat: add apple could not verify free of malware" />
   </component>
 </project>
