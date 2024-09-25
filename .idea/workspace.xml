@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/feat: add UML">
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/feat: add how to get ca from website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wwei4/MyProjects/my-website/docs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wwei4/MyProjects/my-website&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,8 +70,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -94,7 +96,11 @@
       <workItem from="1721005516769" duration="124000" />
       <workItem from="1721009501498" duration="3000" />
       <workItem from="1721108388049" duration="3460000" />
-      <workItem from="1721696577682" duration="699000" />
+      <workItem from="1721696577682" duration="1912000" />
+      <workItem from="1721869898402" duration="598000" />
+      <workItem from="1721876958772" duration="599000" />
+      <workItem from="1724230540481" duration="1311000" />
+      <workItem from="1727226953854" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -192,7 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721121119681</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="main/feat: add MongoInvalidArgumentError - Update document requires atomic operators">
+      <option name="closed" value="true" />
+      <created>1721697458903</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721697458903</updated>
+    </task>
+    <task id="LOCAL-00014" summary="main/feat: add how to get ca from website">
+      <option name="closed" value="true" />
+      <created>1724231063099</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724231063099</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +241,8 @@
     <MESSAGE value="main/feat: add push local code to GitHub note." />
     <MESSAGE value="main/feat: add Java Keystore and Truststore difference" />
     <MESSAGE value="main/feat: add UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="main/feat: add UML" />
+    <MESSAGE value="main/feat: add MongoInvalidArgumentError - Update document requires atomic operators" />
+    <MESSAGE value="main/feat: add how to get ca from website" />
+    <option name="LAST_COMMIT_MESSAGE" value="main/feat: add how to get ca from website" />
   </component>
 </project>
