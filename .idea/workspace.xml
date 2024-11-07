@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/fix: fix vulnerable">
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add mac keyboard shortcuts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +65,18 @@
       <recent name="$PROJECT_DIR$/static/img/Docker" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="OPA_TEST_RUN_CONFIGURATION" factoryName="Opa configuration factory">
+      <option name="additionalargs" value="" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -99,7 +106,8 @@
       <workItem from="1721876958772" duration="599000" />
       <workItem from="1724230540481" duration="1311000" />
       <workItem from="1727226953854" duration="4808000" />
-      <workItem from="1728716298256" duration="108000" />
+      <workItem from="1728716298256" duration="2060000" />
+      <workItem from="1730948364886" duration="180000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -253,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727231054233</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="main/add: add mac keyboard shortcuts">
+      <option name="closed" value="true" />
+      <created>1728716624009</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728716624009</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +312,7 @@
     <MESSAGE value="main/feat: add how to get ca from website" />
     <MESSAGE value="main/feat: add apple could not verify free of malware" />
     <MESSAGE value="main/fix: fix vulnerable" />
-    <option name="LAST_COMMIT_MESSAGE" value="main/fix: fix vulnerable" />
+    <MESSAGE value="main/add: add mac keyboard shortcuts" />
+    <option name="LAST_COMMIT_MESSAGE" value="main/add: add mac keyboard shortcuts" />
   </component>
 </project>
