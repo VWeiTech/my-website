@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add Schema Registry">
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add sudo su different">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/wwei4/MyProjects/my-website",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/wwei4/MyProjects/my-website/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wwei4/MyProjects/my-website&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/wwei4/MyProjects/my-website/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
@@ -67,8 +67,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="OPA_RUN_CONFIGURATION" factoryName="Opa configuration factory">
-      <option name="query" value="" />
+    <configuration default="true" type="OPA_TEST_RUN_CONFIGURATION" factoryName="Opa configuration factory">
       <option name="additionalargs" value="" />
       <envs />
       <method v="2" />
@@ -110,7 +109,8 @@
       <workItem from="1727226953854" duration="4808000" />
       <workItem from="1728716298256" duration="2060000" />
       <workItem from="1730948364886" duration="2516000" />
-      <workItem from="1734318576717" duration="2027000" />
+      <workItem from="1734318576717" duration="2916000" />
+      <workItem from="1734492276126" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -288,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730951664119</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="main/add: add sudo su different">
+      <option name="closed" value="true" />
+      <created>1734328948455</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734328948456</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +341,7 @@
     <MESSAGE value="main/fix: fix vulnerable" />
     <MESSAGE value="main/add: add mac keyboard shortcuts" />
     <MESSAGE value="main/add: add Schema Registry" />
-    <option name="LAST_COMMIT_MESSAGE" value="main/add: add Schema Registry" />
+    <MESSAGE value="main/add: add sudo su different" />
+    <option name="LAST_COMMIT_MESSAGE" value="main/add: add sudo su different" />
   </component>
 </project>
