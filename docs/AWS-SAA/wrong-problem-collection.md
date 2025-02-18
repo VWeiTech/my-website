@@ -81,6 +81,8 @@
 - Regional Reserved Instances is incorrect. This type of reservation does not reserve capacity.
 - You cannot use Amazon EFS for Windows instances as this is not supported.
 - IRSA = IAM roles for service accounts
+- This is incorrect because S3 Object Lock applies to specific objects, not the entire bucket, and there is no
+  WORM-specific configuration required beyond compliance mode.
 
 
 
