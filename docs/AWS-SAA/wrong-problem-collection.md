@@ -42,4 +42,49 @@
   identified as low-reputation, or that are known or suspected to be associated with malware or botnets.
 - Amazon Redshift is better suited for analytical queries and is not optimized for real-time sentiment analysis. This
   solution introduces higher costs and complexity compared to using Amazon Comprehend and DynamoDB.
+- RDS automated backups support up to 35 days of retention and point-in-time recovery. AWS Backup can retain backups for
+  120 days, it cannot directly handle point-in-time recovery, which requires native
+  RDS automated backups.
+- You cannot configure a multi-AZ DB instance to run in another Region, it must be in the same Region but in a different
+  Availability Zone.
+- You cannot create an RDS Read Replica of a database that is running on Amazon EC2. You can only create read replicas
+  of databases running on Amazon RDS.
+- Amazon CloudFront cannot be configured with “a pair of static IP addresses
+- NLB is not optimized for traffic inspection. Additionally, VPC peering lacks centralized management and scalability
+  for large organizations.
+- VPC endpoints do not inherently support routing all traffic through a centralized appliance and lack the capability
+  for deep packet inspection.
+- Lambda@Edge is not used to direct traffic to on-premises origins.
+- You cannot use self-signed certificates with RDS.
+- Amplify is better suited for modern full-stack applications, not static web hosting.
+- The AWS Storage Gateway Tape Gateway enables you to replace using physical tapes on premises with virtual tapes in AWS
+  without changing existing backup workflows. Tape Gateway emulates physical tape libraries, removes the cost and
+  complexity of managing physical tape infrastructure, and provides more durability than physical tapes.
+- EventBridge is not suitable for handling high-frequency batch image processing tasks. AWS Lambda’s limitations also
+  make it unsuitable for this scenario.
+- detailed monitoring provides metrics at 1-minute intervals, which allows the operations team to quickly detect and
+  analyze potential bottlenecks during the sales event. CloudWatch natively supports metrics for both EC2 and RDS.
+- Amazon Kinesis Data Streams should be used for near-real time or real-time use cases instead of Amazon SQS.
+- You do not need to use the SCT as you are migrating into the same destination database engine (RDS is just the
+  platform).
+- AWS Direct Connect is used for establishing private connections between on-premises environments and AWS, not for
+  connecting to third-party SaaS providers within AWS.
+- AWS Glue simplifies ETL workflows and supports attaching security configurations to enforce client-specific encryption
+  with KMS keys.
+- stopping operations ensures a clean cutover process, allowing the organization to launch the migrated instances in AWS
+  with minimal disruption to business operations.
+- Systems Manager Agent is useful for post-migration operations and management, it is not directly involved in the
+  lift-and-shift migration process.
+- Use AWS Compute Optimizer for recommendations on EC2 instances and Auto Scaling groups. Use Amazon Data Lifecycle
+  Manager to evaluate cost optimizations for the EBS volumes: This requires separate configurations for different
+  resources, increasing complexity compared to a single AWS Compute Optimizer setup.
+- Regional Reserved Instances is incorrect. This type of reservation does not reserve capacity.
+- You cannot use Amazon EFS for Windows instances as this is not supported.
+- IRSA = IAM roles for service accounts
+
+
+
+
+
+
 
