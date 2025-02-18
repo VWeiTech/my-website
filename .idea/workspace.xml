@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add sudo su different">
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add msk env config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,15 +59,16 @@
       <recent name="$PROJECT_DIR$/docs/Docker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img/AWS-SAA" />
+      <recent name="$PROJECT_DIR$/static/img/AWS" />
       <recent name="$PROJECT_DIR$/docs/Database/PostgreSQL" />
       <recent name="$PROJECT_DIR$/docs/AcronymGlossary" />
       <recent name="$PROJECT_DIR$/book/Software Engineer" />
-      <recent name="$PROJECT_DIR$/static/img/Java" />
-      <recent name="$PROJECT_DIR$/static/img/Docker" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="OPA_TEST_RUN_CONFIGURATION" factoryName="Opa configuration factory">
+    <configuration default="true" type="OPA_RUN_CONFIGURATION" factoryName="Opa configuration factory">
+      <option name="query" value="" />
       <option name="additionalargs" value="" />
       <envs />
       <method v="2" />
@@ -76,8 +77,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -110,7 +111,10 @@
       <workItem from="1728716298256" duration="2060000" />
       <workItem from="1730948364886" duration="2516000" />
       <workItem from="1734318576717" duration="2916000" />
-      <workItem from="1734492276126" duration="1126000" />
+      <workItem from="1734492276126" duration="2128000" />
+      <workItem from="1739150783207" duration="27962000" />
+      <workItem from="1739429279633" duration="3266000" />
+      <workItem from="1739845551458" duration="7877000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -296,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734328948456</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="main/add: add msk env config">
+      <option name="closed" value="true" />
+      <created>1734494557110</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734494557110</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +354,7 @@
     <MESSAGE value="main/add: add mac keyboard shortcuts" />
     <MESSAGE value="main/add: add Schema Registry" />
     <MESSAGE value="main/add: add sudo su different" />
-    <option name="LAST_COMMIT_MESSAGE" value="main/add: add sudo su different" />
+    <MESSAGE value="main/add: add msk env config" />
+    <option name="LAST_COMMIT_MESSAGE" value="main/add: add msk env config" />
   </component>
 </project>
