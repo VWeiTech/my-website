@@ -202,5 +202,138 @@
 - You cannot reference a security group from another region. Security groups are region-specific and can only be
   referenced within the same region.
 
+- The only solution presented that actually works is to create a NAT gateway in the public subnet of each AZ. They must
+  be created in the public subnet as they gain public IP addresses and use an internet gateway for internet access.
+  The route tables in the private subnets must then be configured with a route to the NAT gateway and then the EC2
+  instances will be able to access the internet (subject to security group configuration).
 
 
+- You can associate an AWS Direct Connect gateway with either of the following gateways:
+    - A transit gateway when you have multiple VPCs in the same Region.
+    - A virtual private gateway.
+
+
+- AWS Service Catalog enables organizations to create and manage catalogs of IT services that are approved for use on
+  AWS.
+  It allows centrally managed service portfolios, which clients can use on a self-service basis.
+  AWS Service Catalog provides a single location where organizations can centrally manage catalogs of IT services, which
+  simplifies the organizational process and helps ensure compliance.
+
+- AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon S3 using SFTP.
+  Storing incoming files in S3 Standard offers high durability, availability, and performance object storage for
+  frequently accessed data.
+  AWS Lambda can respond immediately to S3 events, which allows processing of files as soon as they arrive. Lambda can
+  also delete the files after processing. This meets all requirements and is operationally efficient, as it requires
+  minimal management and has low costs.
+
+- The Metrics Server collects resource metrics like CPU and memory usage from each node and its pods and provides these
+  metrics to the Kubernetes API server for use by the Horizontal Pod Autoscaler, which automatically scales the number
+  of pods in a deployment, replication controller, replica set, or stateful set based on observed CPU utilization.
+  The Kubernetes Cluster Autoscaler automatically adjusts the size of the Kubernetes cluster when there are pods that
+  failed to run in the cluster due to insufficient resources or when there are nodes in the cluster that have been
+  underutilized for an extended period and their pods can be placed on other existing nodes.
+
+- You can use the CloudWatch agent to collect both system metrics and log files from Amazon EC2 instances and
+  on-premises servers. The agent supports both Windows Server and Linux, and enables you to select the metrics to be
+  collected, including sub-resource metrics such as per-CPU core.
+  There is now a unified agent and previously there were monitoring scripts. Both of these tools can capture
+  SwapUtilization metrics and send them to CloudWatch. This is the best way to get memory utilization metrics from
+  Amazon EC2 instnaces.
+- Enable detailed monitoring in the EC2 console. Create an Amazon CloudWatch SwapUtilization custom metric. Monitor
+  SwapUtilization metrics in CloudWatch" is incorrect as you do not create custom metrics in the console, you must
+  configure the instances to send the metric information to CloudWatch.
+
+- AWS DataSync is a secure, online service that automates and accelerates moving data between on-premises and AWS
+  storage service and is not designed as a hybrid storage service.
+
+- When you launch a new EC2 instance, the EC2 service attempts to place the instance in such a way that all of your
+  instances are spread out across underlying hardware to minimize correlated failures. You can use placement groups to
+  influence the placement of a group of interdependent instances to meet the needs of your workload. Depending on the
+  type of workload, you can create a placement group using one of the following placement strategies:
+
+    - Cluster – packs instances close together inside an Availability Zone. This strategy enables workloads to achieve
+      the
+      low-latency network performance necessary for tightly-coupled node-to-node communication that is typical of HPC
+      applications.
+
+    - Partition – spreads your instances across logical partitions such that groups of instances in one partition do not
+      share
+      the underlying hardware with groups of instances in different partitions. This strategy is typically used by large
+      distributed and replicated workloads, such as Hadoop, Cassandra, and Kafka.
+
+    - Spread – strictly places a small group of instances across distinct underlying hardware to reduce correlated
+      failures.
+
+- You cannot enable “cross-region snapshots” as this is not a feature that currently exists.
+
+- Though snapshots (and EBS-backed AMIs) are stored on Amazon S3, you cannot actually access them using the S3 API. You
+  must use the EC2 API.
+
+- Lambda@Edge is a feature of Amazon CloudFront that lets you run code closer to users of your application, which
+  improves performance and reduces latency. Lambda@Edge runs code in response to events generated by the Amazon
+  CloudFront.
+
+  You simply upload your code to AWS Lambda, and it takes care of everything required to run and scale your code with
+  high
+  availability at an AWS location closest to your end user.
+
+  In this case Lambda@Edge can compress the files before they are sent to users which will reduce data egress costs.
+- Enable caching on the CloudFront distribution to store generated files at the edge" is incorrect. The files are unique
+  to each customer request, so caching does not help.
+
+- AWS AppSync simplifies application development by letting you create a flexible API to securely access, manipulate,
+  and combine data from one or more data sources. AppSync is a managed service that uses GraphQL to make it easy for
+  applications to get exactly the data they need, including from multiple DynamoDB tables.
+  AWS AppSync is designed for real-time and offline data access which makes it an ideal solution for this scenario.
+- AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to prepare and load your
+  data for analytics. However, AWS Glue isn't meant for real-time data retrieval in an application. Using it for
+  real-time data retrieval would likely be overcomplicated and inefficient.
+
+
+- Some applications, such as media catalog updates require high frequency reads, and consistent throughput. For such
+  applications, customers often complement S3 with an in-memory cache, such as Amazon ElastiCache for Redis, to reduce
+  the S3 retrieval cost and to improve performance.
+
+    - ElastiCache for Redis is a fully managed, in-memory data store that provides sub-millisecond latency performance
+      with
+      high throughput. ElastiCache for Redis complements S3 in the following ways:
+
+    - Redis stores data in-memory, so it provides sub-millisecond latency and supports incredibly high requests per
+      second.
+
+    - It supports key/value based operations that map well to S3 operations (for example, GET/SET => GET/PUT), making it
+      easy to write code for both S3 and ElastiCache.
+
+    - It can be implemented as an application side cache. This allows you to use S3 as your persistent store and benefit
+      from its durability, availability, and low cost. Your applications decide what objects to cache, when to cache
+      them,
+      and how to cache them.
+
+  In this example the media catalog is pulling updates from S3 so the performance between these components is what needs
+  to be improved. Therefore, using ElastiCache to cache the content will dramatically increase the performance.
+
+- Replication enables automatic, asynchronous copying of objects across Amazon S3 buckets. Buckets that are
+  configured for object replication can be owned by the same AWS account or by different accounts. You can copy
+  objects between different AWS Regions or within the same Region. Both source and destination buckets must have
+  versioning enabled.
+- Create an additional S3 bucket with versioning in another Region and configure cross-origin resource sharing (CORS)"
+  is incorrect as CORS is not related to replication
+
+- Amazon RDS uses snapshots for backup. Snapshots are encrypted when created only if the database is encrypted and you
+  can only select encryption for the database when you first create it. In this case the database, and hence the
+  snapshots, ad unencrypted.
+  However, you can create an encrypted copy of a snapshot. You can restore using that snapshot which creates a new DB
+  instance that has encryption enabled. From that point on encryption will be enabled for all snapshots.
+
+- Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3) is incorrect as the company needs to manage access
+  control for the keys which is not possible when they’re managed by Amazon.
+- SSE-KMS requires that AWS manage the data key but you manage the customer master key (CMK) in AWS KMS. You can choose
+  a customer managed CMK or the AWS managed CMK for Amazon S3 in your account.
+
+  Customer managed CMKs are CMKs in your AWS account that you create, own, and manage. You have full control over these
+  CMKs, including establishing and maintaining their key policies, IAM policies, and grants, enabling and disabling
+  them, rotating their cryptographic material, adding tags, creating aliases that refer to the CMK, and scheduling the
+  CMKs for deletion.
+
+  For this scenario, the solutions architect should use SSE-KMS with a customer managed CMK. That way KMS will manage
+  the data key but the company can configure key policies defining who can access the keys.
