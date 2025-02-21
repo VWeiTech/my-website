@@ -70,4 +70,4 @@ Amazon QuickSight）提供高质量的数据输入。
 
 ## 补充说明
 
-### [ETL](../../docs/AWS/ETL.md)
+### [ETL](ETL.md)

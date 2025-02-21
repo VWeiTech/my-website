@@ -5,8 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add aws-saa">
+      <change afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/20250210.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/AWS-SAA/wrong-problem-collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS-SAA/wrong-problem-collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS-SAA/concept-set.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-EN/concept-set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS-SAA/wrong-problem-collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-EN/wrong-problem-collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/20241218.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/FAQ/20241218.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/20250210.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Batch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Batch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Compute_Optimizer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Compute_Optimizer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Config.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Config.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Control_Tower.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Control_Tower.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_DataSync.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_DataSync.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Database_Migration_Service.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Database_Migration_Service.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Fargate.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Fargate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Gateway_Endpoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Gateway_Endpoint.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Gateway_Load_Balancer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Gateway_Load_Balancer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Global_Accelerator.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Global_Accelerator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Glue.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Glue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_SCP.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_SCP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Secrets_Manager.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Secrets_Manager.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Snowball.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Snowball.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_Storage_Gateway_Tape_Gateway.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_Storage_Gateway_Tape_Gateway.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS_iSCSI.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/AWS_iSCSI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_Aurora_Global_Database.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_Aurora_Global_Database.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_CloudFront.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_CloudFront.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_EBS_General_Purpose_SSD.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_EKS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EKS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_EMR.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EMR.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_Elastic_Fabric_Adapter.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_Elastic_Fabric_Adapter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_Elastic_Network_Interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_Elastic_Network_Interface.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_Kinesis_Data_Streams.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_Kinesis_Data_Streams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_Rekognition.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_Rekognition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_S3_Transfer_Acceleration.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_S3_Transfer_Acceleration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/Amazon_SNS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_SNS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/ETL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/ETL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AWS/VPC_Peering.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-CN/VPC_Peering.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +95,15 @@
       <recent name="$PROJECT_DIR$/docs/Docker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/img/AWS-SAA" />
-      <recent name="$PROJECT_DIR$/static/img/AWS" />
-      <recent name="$PROJECT_DIR$/docs/Database/PostgreSQL" />
-      <recent name="$PROJECT_DIR$/docs/AcronymGlossary" />
-      <recent name="$PROJECT_DIR$/book/Software Engineer" />
+      <recent name="$PROJECT_DIR$/docs/AWS/FAQ" />
+      <recent name="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-EN" />
+      <recent name="$PROJECT_DIR$/docs/AWS" />
+      <recent name="$PROJECT_DIR$/docs/AWS/AWS-SAA" />
+      <recent name="$PROJECT_DIR$/docs/AWS/AWS-SAA-CN" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="OPA_RUN_CONFIGURATION" factoryName="Opa configuration factory">
-      <option name="query" value="" />
+    <configuration default="true" type="OPA_TEST_RUN_CONFIGURATION" factoryName="Opa configuration factory">
       <option name="additionalargs" value="" />
       <envs />
       <method v="2" />
@@ -115,7 +149,8 @@
       <workItem from="1734492276126" duration="2128000" />
       <workItem from="1739150783207" duration="27962000" />
       <workItem from="1739429279633" duration="3266000" />
-      <workItem from="1739845551458" duration="20088000" />
+      <workItem from="1739845551458" duration="31642000" />
+      <workItem from="1740020303350" duration="13826000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -333,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739873778493</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="main/add: add aws-saa">
+      <option name="closed" value="true" />
+      <created>1739876506424</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739876506424</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

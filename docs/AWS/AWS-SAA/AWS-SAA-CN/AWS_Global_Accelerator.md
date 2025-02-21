@@ -26,7 +26,7 @@ AWS Global Accelerator 是亚马逊云科技（AWS）提供的一项网络服务
 
 ## 优势对比其他服务
 
-![img.png](../../static/img/AWS/img.png)
+![img.png](../../../../static/img/AWS/img.png)
 
 ## 注意事项
 

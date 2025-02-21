@@ -20,14 +20,14 @@ Distributed File System Replication
     - Transparent Network Gateway – single entry/exit for all traffic
     - Load Balancer – distributes traffic to your virtual appliances
 - Uses the GENEVE protocol on port 6081
-  ![img.png](../../static/img/AWS-SAA/img.png)
+  ![img.png](../../../../static/img/AWS-SAA/img.png)
 
 # Gateway Load Balancer – Target Groups
 
 - EC2 instances
 - IP Addresses – must be private IPs
 
-![img.png](../../static/img/AWS-SAA/img_1.png)
+![img.png](../../../../static/img/AWS-SAA/img_1.png)
 
 # Kinesis Data Firehose
 
@@ -43,7 +43,7 @@ Distributed File System Replication
 - Supports custom data transformations using AWS Lambda
 - Can send failed or all data to a backup S3 bucket
 
-![img.png](../../static/img/AWS-SAA/img_2.png)
+![img.png](../../../../static/img/AWS-SAA/img_2.png)
 
 # AWS WAF – Web Application Firewall
 

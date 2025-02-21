@@ -5,7 +5,7 @@ Amazon EKS（Amazon Elastic Kubernetes Service）是亚马逊云科技（AWS）�
 
 ### 核心概念
 
-![img.png](../../static/img/AWS/img_4.png)  
+![img.png](../../../../static/img/AWS/img_4.png)  
 Kubernetes 是一个开源的容器编排平台，用于自动化部署、扩展和管理容器化应用程序。Amazon EKS 则是 AWS 对 Kubernetes
 的托管实现，它负责处理 Kubernetes 控制平面的运维工作，让用户可以专注于运行应用程序。
 

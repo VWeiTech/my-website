@@ -3,7 +3,7 @@
 Amazon EBS（Elastic Block Store）General Purpose SSD
 是亚马逊云科技（AWS）提供的一种存储卷类型，属于固态硬盘（SSD）存储，适用于广泛的工作负载，能在性能和成本之间取得良好平衡。以下从多个方面详细解释：
 
-![img.png](../../static/img/AWS/img_6.png)
+![img.png](../../../../static/img/AWS/img_6.png)
 
 ### 基本概念
 

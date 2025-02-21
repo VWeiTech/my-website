@@ -5,7 +5,7 @@ AWS Gateway Endpoint 是 Amazon VPC（Virtual Private Cloud，虚拟专用云）
 
 ### 工作原理
 
-![img.png](../../static/img/AWS/img_3.png)
+![img.png](../../../../static/img/AWS/img_3.png)
 
 - **路由集成**：当在 VPC 中创建 Gateway Endpoint 时，实际上是在 VPC 的路由表中添加了特定的路由规则。这些规则将指向目标 AWS
   服务的流量导向 Gateway Endpoint。

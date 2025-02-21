@@ -4,7 +4,7 @@ Amazon Aurora Global Database 是亚马逊云科技（AWS）为 Amazon Aurora �
 
 ### 核心概念
 
-![img.png](../../static/img/AWS/img_5.png)  
+![img.png](../../../../static/img/AWS/img_5.png)  
 Amazon Aurora 本身是一种与 MySQL 和 PostgreSQL 兼容的高性能关系型数据库，而 Amazon Aurora Global Database 则在此基础上提供了一种在多个
 AWS 区域之间快速、可靠地复制数据的解决方案，让用户能够在全球范围内实现低延迟的数据访问。
 
