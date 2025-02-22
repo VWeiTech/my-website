@@ -77,3 +77,10 @@ Distributed File System Replication
 - Legal Hold:
   • protect the object indefinitely, independent from retention period
   • can be freely placed and removed using the s3:PutObjectLegalHold IAM permission
+
+
+
+
+Amazon OpsWorks is a fully managed configuration management service that helps you automate the deployment and management of your applications across AWS.
+
+

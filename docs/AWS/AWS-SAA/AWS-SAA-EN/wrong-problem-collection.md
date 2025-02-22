@@ -1,3 +1,8 @@
+- 多选题组合选，不要一样选一个
+- 一定读完所有选项，比较每个选项的区别
+- 注意重点词汇，比如 MOST LATEST ...
+- 重点甄别没见过的组件，给出令自己信服的选择理由
+
 - you can only put ALBs in front of the web tier, not the DB tier.
 
 - GWLB is specifically designed to simplify the deployment of security appliances. Using GWLB endpoints in service
@@ -337,3 +342,162 @@
 
   For this scenario, the solutions architect should use SSE-KMS with a customer managed CMK. That way KMS will manage
   the data key but the company can configure key policies defining who can access the keys.
+
+- Elastic Fabric Adapter (EFA)
+  • Improved ENA for HPC, only works for Linux
+  • Great for inter-node communications, tightly coupled workloads
+  • Leverages Message Passing Interface (MPI) standard
+  • Bypasses the underlying Linux OS to provide low-latency, reliable transport
+
+- Amazon S3 Access Points, a feature of S3, simplify data access for any AWS service or customer application that stores
+  data in S3. With S3 Access Points, customers can create unique access control policies for each access point to easily
+  control access to shared datasets. You can also control access point usage using AWS Organizations support for AWS
+  SCPs.
+
+- AWS Compute Optimizer helps you identify the optimal AWS resource configurations, such as Amazon Elastic Compute
+  Cloud (EC2) instance types, Amazon Elastic Block Store (EBS) volume configurations, and AWS Lambda function memory
+  sizes, using machine learning to analyze historical utilization metrics. AWS Compute Optimizer provides a set of APIs
+  and a console experience to help you reduce costs and increase workload performance by recommending the optimal AWS
+  resources for your AWS workloads.
+- Cost and Usage Reports are a highly detailed report of your spend and usage across your entire AWS Environment. Whilst
+  it can be used to understand cost, it does not make recommendations.
+- Cost Explorer gives you insight into your spend and usage in a graphical format, which can be filtered and grouped by
+  parameters like Region, instance type and can use Tags to further group resources. It does not however make any
+  recommendations on how to reduce spend.
+
+- You can create a read replica as a Multi-AZ DB instance. Amazon RDS creates a standby of your replica in another
+  Availability Zone for failover support for the replica. Creating your read replica as a Multi-AZ DB instance is
+  independent of whether the source database is a Multi-AZ DB instance.
+
+- When a user requests your content, CloudFront typically serves the requested content regardless of where the user is
+  located. If you need to prevent users in specific countries from accessing your content, you can use the CloudFront
+  geo restriction feature to do one of the following:
+
+    - Allow your users to access your content only if they're in one of the countries on a whitelist of approved
+      countries.
+
+    - Prevent your users from accessing your content if they're in one of the countries on a blacklist of banned
+      countries.
+
+For example, if a request comes from a country where, for copyright reasons, you are not authorized to distribute your
+content, you can use CloudFront geo restriction to block the request.
+This is the easiest and most effective way to implement a geographic restriction for the delivery of content.
+
+- security groups cannot block traffic by country.
+
+- Accounts can be migrated between organizations. To do this you must have root or IAM access to both the member and
+  master accounts. Resources will remain under the control of the migrated account.
+
+- Amazon OpsWorks is a fully managed configuration management service that helps you automate the deployment and
+  management of your applications across AWS.
+- Amazon SWF（Simple Workflow Service ） is used for process automation.
+
+- In this case the scenario requires that credentials are used for authenticating to MySQL. The credentials need to be
+  securely stored outside of the function code. Systems Manager Parameter Store provides secure, hierarchical storage
+  for configuration data management and secrets management.
+
+- A Kinesis data stream is a set of shards. Each shard contains a sequence of data records. A consumer is an application
+  that processes the data from a Kinesis data stream. You can map a Lambda function to a shared-throughput consumer (
+  standard iterator), or to a dedicated-throughput consumer with enhanced fan-out.
+  Amazon DynamoDB is the best database for this use case as it supports near-real time performance and millisecond
+  responsiveness.
+
+- Amazon RedShift cannot provide millisecond responsiveness.
+
+- Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra–compatible
+  database service. This combined with a containerized, serverless compute layer on Amazon ECS for Fargate and a RDS for
+  Microsoft SQL Server database layer is a fully managed version of what currently exists on premises.
+
+- Larger data migrations with AWS DMS can include many terabytes of information. This process can be cumbersome due to
+  network bandwidth limits or just the sheer amount of data. AWS DMS can use Snowball Edge and Amazon S3 to migrate
+  large
+  databases more quickly than by other methods.
+
+  When you're using an Edge device, the data migration process has the following stages:
+
+    1. You use the AWS Schema Conversion Tool (AWS SCT) to extract the data locally and move it to an Edge device.
+
+    2. You ship the Edge device or devices back to AWS.
+
+    3. After AWS receives your shipment, the Edge device automatically loads its data into an Amazon S3 bucket.
+
+    4. AWS DMS takes the files and migrates the data to the target data store. If you are using change data capture (
+       CDC),
+       those updates are written to the Amazon S3 bucket and then applied to the target data store.
+
+- A rate-based rule tracks the rate of requests for each originating IP address, and triggers the rule action on IPs
+  with rates that go over a limit. You set the limit as the number of requests per 5-minute time span.
+
+  You can use this type of rule to put a temporary block on requests from an IP address that's sending excessive
+  requests.
+  By default, AWS WAF aggregates requests based on the IP address from the web request origin, but you can configure the
+  rule to use an IP address from an HTTP header, like X-Forwarded-For, instead.
+
+- Access logs are exported to S3 but not to CloudWatch. Also, it would not be possible to block an attack from a
+  specific IP using a security group (while still allowing any other source access) as they do not support deny rules.
+
+- AWS Security Hub gives a comprehensive view of high-priority security alerts and compliance status, but it does not
+  offer data-specific detection like PHI in S3 objects.
+
+- If you have data in sources other than Amazon S3, you can use Athena Federated Query to query the data in place or
+  build pipelines that extract data from multiple data sources and store them in Amazon S3. With Athena Federated Query,
+  you can run SQL queries across data stored in relational, non-relational, object, and custom data sources.
+
+  Athena uses data source connectors that run on AWS Lambda to run federated queries. A data source connector is a piece
+  of code that can translate between your target data source and Athena. You can think of a connector as an extension of
+  Athena's query engine. Prebuilt Athena data source connectors exist for data sources like Amazon CloudWatch Logs,
+  Amazon
+  DynamoDB, Amazon DocumentDB, and Amazon RDS, and JDBC-compliant relational data sources such MySQL, and PostgreSQL
+  under the Apache 2.0 license.
+
+- AWS RAM（Resource Access Manager） does not apply to Reserved Instances. It is used to share other resources like
+  Subnets, Transit Gateways, etc.
+
+- Amazon Transcribe converts audio input into text, which opens the door for various text analytics applications on
+  voice input. For instance, by using Amazon Comprehend on the converted text data from Amazon Transcribe, customers can
+  perform sentiment analysis or extract entities and key phrases.
+
+  Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.
+  Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
+
+- Amazon EBS fast snapshot restore (FSR) enables you to create a volume from a snapshot that is fully initialized at
+  creation. This eliminates the latency of I/O operations on a block when it is accessed for the first time. Volumes
+  that are created using fast snapshot restore instantly deliver all their provisioned performance.
+
+- Registering a wildcard custom domain name in Route 53 and creating a record pointing to API Gateway endpoint allows
+  you to create unique URLs for each customer under the same domain name.
+
+  Requesting a wildcard certificate in the same AWS region as the REST API would provide secure URLs (https) for all
+  customers under the same domain name. This would minimize the operational complexity of managing multiple certificates
+  in different regions.
+
+  By creating a custom domain name in API Gateway and importing the wildcard certificate from ACM, the company can
+  provide
+  secure and unique URLs for each customer. API Gateway's custom domain names provide paths for API methods, helping
+  maintain a consistent experience for customers.
+
+- By setting geographical restrictions on CloudFront content using a deny list, the company can block access to content
+  for users outside of the released regions. If a user from a blocked region attempts to access the content, they would
+  receive the custom error message, thereby meeting the company's requirements.
+
+- When the EKS control plane is configured with private access, and the nodes are in a private subnet, you need to
+  create VPC endpoints for Amazon EKS and ECR. This allows the nodes to communicate with the EKS control plane and pull
+  container images from ECR.
+
+- AWS Organizations provides policy-based management for multiple AWS accounts. With Organizations, you can create
+  member accounts that are part of your organization and centrally manage your accounts.
+
+  AWS Directory Service allows you to connect your AWS resources with an existing on-premises Microsoft Active Directory
+  or to set up a new, stand-alone directory in the AWS Cloud. AWS Identity Center makes it easy to centrally manage
+  access to multiple AWS accounts and business applications and provide users with single sign-on access to all their
+  assigned accounts and applications from one place.
+
+- AWS Lambda is a cost-effective solution for unpredictable traffic patterns due to its pay-per-use pricing model.
+  DynamoDB is also a cost-effective and highly scalable solution for storing user data. The API Gateway provides a
+  HTTP-based endpoint that can be used to expose the Lambda function.
+
+  AWS Cognito User Pools provide user directory features including sign-up and sign-in services, which are suitable for
+  managing game user authentication.
+
+  AWS Amplify simplifies the process of hosting web applications with automated deployment processes. It also integrates
+  with CloudFront, providing a global content delivery network to efficiently serve the game interface.
