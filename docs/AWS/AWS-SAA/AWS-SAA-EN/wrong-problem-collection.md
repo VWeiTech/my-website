@@ -501,3 +501,62 @@ This is the easiest and most effective way to implement a geographic restriction
 
   AWS Amplify simplifies the process of hosting web applications with automated deployment processes. It also integrates
   with CloudFront, providing a global content delivery network to efficiently serve the game interface.
+
+- You can use VPC Flow Logs to capture detailed information about the traffic going to and from your Elastic Load
+  Balancer. Create a flow log for each network interface for your load balancer. There is one network interface per load
+  balancer subnet.
+
+- as EventBridge rules would invoke the job only twice a day. It also involves managing an EC2 instance, which is less
+  operationally efficient than the AWS Transfer Family and AWS Lambda option.
+
+- With an Aurora global database, there are two different approaches to failover depending on the scenario. You can use
+  manual unplanned failover (detach and promote) or managed planned failover.
+
+- MPI protocol is a message passing interface that allows multiple processes to communicate with each other.
+
+- "Configure a Network ACL on the database subnet to allow all traffic from the application subnet" is incorrect. This
+  does not restrict access specifically to the application instances.
+
+- With CloudFront Functions in Amazon CloudFront, you can write lightweight functions in JavaScript for high-scale,
+  latency-sensitive CDN customizations. Your functions can manipulate the requests and responses that flow through
+  CloudFront, perform basic authentication and authorization, generate HTTP responses at the edge, and more. CloudFront
+  Functions is approximately 1/6th the cost of Lambda@Edge and is extremely low latency as the functions are run on the
+  host in the edge location, instead of the running on a Lambda function elsewhere.
+
+- Amazon Aurora does not have an option to run a Microsoft SQL Server database, therefore this answer is not correct.
+
+- A rate-based rule tracks the rate of requests for each originating IP address, and triggers the rule action on IPs
+  with rates that go over a limit. You set the limit as the number of requests per 5-minute time span.
+
+  You can use this type of rule to put a temporary block on requests from an IP address that's sending excessive
+  requests. By default, AWS WAF aggregates requests based on the IP address from the web request origin, but you can
+  configure the rule to use an IP address from an HTTP header, like X-Forwarded-For, instead.
+
+- AWS Control Tower automates the setup of a new landing zone using best practices blueprints for identity, federated
+  access, and account structure.
+
+  The account factory automates provisioning of new accounts in your organization. As a configurable account template,
+  it helps you standardize the provisioning of new accounts with pre-approved account configurations. You can configure
+  your account factory with pre-approved network configuration and region selections.
+
+- The architecture is already highly resilient but may be subject to performance degradation if there are sudden
+  increases in request rates. To resolve this situation Amazon Aurora Read Replicas can be used to serve read traffic
+  which offloads requests from the main database. On the frontend an Amazon CloudFront distribution can be placed in
+  front of the ALB and this will cache content for better performance and also offloads requests from the backend.
+
+- A CloudWatch Events rule can be used to set up automatic email notifications for Medium to High Severity findings to
+  the email address of your choice. You simply create an Amazon SNS topic and then associate it with an Amazon
+  CloudWatch events rule.
+
+- A new version of the AWS Web Application Firewall was released in November 2019. With AWS WAF classic you create “IP
+  match conditions”, whereas with AWS WAF (new version) you create “IP set match statements”. Look out for wording on
+  the exam.
+
+  The IP match condition / IP set match statement inspects the IP address of a web request's origin against a set of IP
+  addresses and address ranges. Use this to allow or block web requests based on the IP addresses that the requests
+  originate from.
+
+  AWS WAF supports all IPv4 and IPv6 address ranges. An IP set can hold up to 10,000 IP addresses or IP address ranges
+  to check.
+
+- 
