@@ -67,6 +67,9 @@
 - The AWS Network Firewall is a managed service that makes it easy to deploy essential network protections for all your
   Amazon Virtual Private Clouds, and you can then use domain list rules to block HTTP or HTTPS traffic to domains
   identified as low-reputation, or that are known or suspected to be associated with malware or botnets.
+- AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits and
+  bots that may affect availability, compromise security, or consume excessive resources. It is designed to protect your
+  applications from malicious traffic, not your VPC.
 
 - Amazon Redshift is better suited for analytical queries and is not optimized for real-time sentiment analysis. This
   solution introduces higher costs and complexity compared to using Amazon Comprehend and DynamoDB.
@@ -559,4 +562,64 @@ This is the easiest and most effective way to implement a geographic restriction
   AWS WAF supports all IPv4 and IPv6 address ranges. An IP set can hold up to 10,000 IP addresses or IP address ranges
   to check.
 
-- 
+- A gateway endpoint is a method of accessing S3 using private addresses from your VPC, not from your data center.
+
+- Using Amazon CloudFront as the front-end provides the option to specify a custom message instead of the default
+  message. To specify the specific file that you want to return and the errors for which the file should be returned,
+  you update your CloudFront distribution to specify those values.
+
+- Use AWS Compute Optimizer to obtain a recommendation for an instance type to scale vertically: This is correct because
+  AWS Compute Optimizer can suggest a more appropriate EC2 instance type with adequate resources for improved
+  performance when scaling vertically.
+
+  Create an Auto Scaling group and an Application Load Balancer to scale horizontally: This is correct because
+  horizontal scaling improves application availability by adding multiple EC2 instances. The Application Load Balancer
+  ensures traffic is distributed evenly across instances.
+
+- Tape Gateway is designed for backup and archival purposes rather than frequently accessed data. Retrieving imaging
+  data from virtual tapes introduces latency and does not meet the institution's low-latency requirements.
+
+- DAX reduces read latency but does not provide global availability or automatic replication. Manual Cross-Region
+  Replication adds operational complexity and is less reliable than global tables.
+
+- ECS Service Auto Scaling
+    - Automatically increase/decrease the desired number of ECS tasks
+    - Amazon ECS Auto Scaling uses AWS Application Auto Scaling
+      • ECS Service Average CPU Utilization
+      • ECS Service Average Memory Utilization - Scale on RAM
+      • ALB Request Count Per Target – metric coming from the ALB
+    - Target Tracking – scale based on target value for a specific CloudWatch metric
+    - Step Scaling – scale based on a specified CloudWatch Alarm
+    - Scheduled Scaling – scale based on a specified date/time (predictable changes)
+    - ECS Service Auto Scaling (task level) ≠ EC2 Auto Scaling (EC2 instance level)
+    - Fargate Auto Scaling is much easier to setup (because Serverless)
+
+- Amazon FSx for NetApp ONTAP supports both SMB and NFS protocols with multi-protocol sharing and redundancy across
+  Availability Zones.
+
+- Storage Gateway will not accelerate replication and a volume gateway will create EBS snapshots (not S3 objects).
+
+- An S3 Lifecycle configuration is a set of rules that define actions that Amazon S3 applies to a group of objects.
+  There are two types of actions:
+
+  ● Transition actions – These actions define when objects transition to another storage class. For example, you might
+  choose to transition objects to the S3 Standard-IA storage class 30 days after creating them, or archive objects to
+  the S3 Glacier Flexible Retrieval storage class one year after creating them. For more information, see Using Amazon
+  S3 storage classes.
+
+  ● Expiration actions – These actions define when objects expire. Amazon S3 deletes expired objects on your behalf.
+
+- you cannot create a deny rule with a security group, only allow rules can be created.
+
+- This is correct because resource policies in API Gateway allow you to restrict access to APIs by specifying
+  conditions, such as IP addresses. By creating a resource policy with a condition that permits traffic only from the
+  trusted IP range, you can ensure that the API is accessible only from the company’s internal network.
+
+- resource policies in API Gateway allow you to restrict access to APIs by specifying conditions, such as IP addresses.
+  By creating a resource policy with a condition that permits traffic only from the trusted IP range, you can ensure
+  that the API is accessible only from the company’s internal network.
+
+- virtual private gateway
+- s3 bucket key
+- amazon neptune
+- convertible reserved instances
