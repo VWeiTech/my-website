@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add aws-saa">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-EN/wrong-problem-collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AWS/AWS-SAA/AWS-SAA-EN/wrong-problem-collection.md" afterDir="false" />
-    </list>
+    <list default="true" id="598b301b-ccff-49c6-91df-c183213d089a" name="Changes" comment="main/add: add aws-saa" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +112,7 @@
       <workItem from="1739150783207" duration="27962000" />
       <workItem from="1739429279633" duration="3266000" />
       <workItem from="1739845551458" duration="31642000" />
-      <workItem from="1740020303350" duration="73686000" />
+      <workItem from="1740020303350" duration="74639000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -381,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740363833849</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="main/add: add aws-saa">
+      <option name="closed" value="true" />
+      <created>1740443089374</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1740443089374</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
