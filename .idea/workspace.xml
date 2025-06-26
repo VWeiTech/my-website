@@ -65,7 +65,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="OPA_TEST_RUN_CONFIGURATION" factoryName="Opa configuration factory">
+    <configuration default="true" type="OPA_RUN_CONFIGURATION" factoryName="Opa configuration factory">
+      <option name="query" value="" />
       <option name="additionalargs" value="" />
       <envs />
       <method v="2" />
@@ -119,6 +120,7 @@
       <workItem from="1740730079059" duration="3181000" />
       <workItem from="1744608456992" duration="996000" />
       <workItem from="1747184929009" duration="45000" />
+      <workItem from="1748396613288" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -416,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747184968121</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="main/fix: npm audit fix">
+      <option name="closed" value="true" />
+      <created>1748396649315</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1748396649315</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
