@@ -2,11 +2,11 @@
 <html lang="zh-Hans" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">Amazon EBS（Elastic Block Store）General Purpose SSD | Vincents Site</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://vweitech.github.io/my-website/zh-Hans/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://vweitech.github.io/my-website/zh-Hans/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://vweitech.github.io/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Amazon EBS（Elastic Block Store）General Purpose SSD | Vincents Site"><meta data-rh="true" name="description" content="Amazon EBS（Elastic Block Store）General Purpose SSD"><meta data-rh="true" property="og:description" content="Amazon EBS（Elastic Block Store）General Purpose SSD"><link data-rh="true" rel="icon" href="/my-website/zh-Hans/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://vweitech.github.io/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD"><link data-rh="true" rel="alternate" href="https://vweitech.github.io/my-website/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD" hreflang="en"><link data-rh="true" rel="alternate" href="https://vweitech.github.io/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://vweitech.github.io/my-website/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Amazon EBS（Elastic Block Store）General Purpose SSD","item":"https://vweitech.github.io/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD"}]}</script><link rel="alternate" type="application/rss+xml" href="/my-website/zh-Hans/blog/rss.xml" title="Vincents Site RSS Feed">
-<link rel="alternate" type="application/atom+xml" href="/my-website/zh-Hans/blog/atom.xml" title="Vincents Site Atom Feed"><link rel="stylesheet" href="/my-website/zh-Hans/assets/css/styles.e8a5d69d.css">
-<script src="/my-website/zh-Hans/assets/js/runtime~main.454e7502.js" defer="defer"></script>
-<script src="/my-website/zh-Hans/assets/js/main.7da62ae9.js" defer="defer"></script>
+<link rel="alternate" type="application/atom+xml" href="/my-website/zh-Hans/blog/atom.xml" title="Vincents Site Atom Feed"><link rel="stylesheet" href="/my-website/zh-Hans/assets/css/styles.dee9e271.css">
+<script src="/my-website/zh-Hans/assets/js/runtime~main.3d138635.js" defer="defer"></script>
+<script src="/my-website/zh-Hans/assets/js/main.bad188d3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -16,72 +16,72 @@
 <p>Amazon EBS（Elastic Block Store）General Purpose SSD
 是亚马逊云科技（AWS）提供的一种存储卷类型，属于固态硬盘（SSD）存储，适用于广泛的工作负载，能在性能和成本之间取得良好平衡。以下从多个方面详细解释：</p>
 <p><img decoding="async" loading="lazy" alt="img.png" src="/my-website/zh-Hans/assets/images/img_6-9289f6242b576efe2b9893c230219fdc.png" width="709" height="530" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="基本概念">基本概念<a href="#基本概念" class="hash-link" aria-label="基本概念的直接链接" title="基本概念的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="基本概念">基本概念<a href="#基本概念" class="hash-link" aria-label="基本概念的直接链接" title="基本概念的直接链接" translate="no">​</a></h3>
 <p>EBS 是 AWS 提供的一种持久块存储服务，可与 Amazon EC2 实例配合使用。General Purpose SSD（gp2 和 gp3）则是 EBS
-众多存储卷类型中的一类，它以固态硬盘为基础，提供 了较高的性能和可靠性。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="主要特点">主要特点<a href="#主要特点" class="hash-link" aria-label="主要特点的直接链接" title="主要特点的直接链接" translate="no">​</a></h3>
+众多存储卷类型中的一类，它以固态硬盘为基础，提  供了较高的性能和可靠性。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="主要特点">主要特点<a href="#主要特点" class="hash-link" aria-label="主要特点的直接链接" title="主要特点的直接链接" translate="no">​</a></h3>
 <ol>
-<li><strong>高性能</strong>
+<li class=""><strong>高性能</strong>
 <ul>
-<li><strong>低延迟</strong>：由于采用 SSD 技术，General Purpose SSD
+<li class=""><strong>低延迟</strong>：由于采用 SSD 技术，General Purpose SSD
 能够提供极低的读写延迟，确保数据能够快速被访问。这对于对响应时间要求较高的应用程序（如数据库、在线交易系统等）至关重要，可以显著提升应用程序的性能和用户体验。</li>
-<li><strong>高 IOPS（Input/Output Operations Per Second）</strong>：它可以提供较高的每秒输入/输出操作数，能够满足高并发工作负载的需求。例如，在处理大量的小文件读写操作时，高
+<li class=""><strong>高 IOPS（Input/Output Operations Per Second）</strong>：它可以提供较高的每秒输入/输出操作数，能够满足高并发工作负载的需求。例如，在处理大量的小文件读写操作时，高
 IOPS 可以确保数据的快速读写，提高系统的整体吞吐量。</li>
 </ul>
 </li>
-<li><strong>成本效益</strong>
+<li class=""><strong>成本效益</strong>
 <ul>
-<li>General Purpose SSD
+<li class="">General Purpose SSD
 在提供良好性能的同时，具有相对较低的成本。对于大多数中小规模的应用程序和工作负载来说，它是一种经济实惠的存储选择。用户无需为了追求高性能而支付过高的费用，能够在性能和成本之间找到合适的平衡点。</li>
 </ul>
 </li>
-<li><strong>自动扩展</strong>
+<li class=""><strong>自动扩展</strong>
 <ul>
-<li>gp3 卷支持在不中断实例的情况下动态调整存储容量、IOPS
+<li class="">gp3 卷支持在不中断实例的情况下动态调整存储容量、IOPS
 和吞吐量。这意味着用户可以根据应用程序的实际需求，灵活地增加或减少存储资源，避免了过度配置或资源不足的问题。例如，在业务高峰期，可以临时增加卷的
 IOPS 和吞吐量，以应对更高的工作负载。</li>
 </ul>
 </li>
-<li><strong>可靠性和耐用性</strong>
+<li class=""><strong>可靠性和耐用性</strong>
 <ul>
-<li>EBS General Purpose SSD 具有较高的可靠性和耐用性。AWS
-会自动对存储卷进行备份和数据冗余处理，确保数据的安全性和可用性。即使在硬件故障或其他异常情况下，数据也能得到有效的保护，减少数据丢失的风险。</li>
+<li class="">EBS General Purpose SSD 具有较高的可靠性和耐用性。AWS
+会自动对存储卷进行备份和数据冗余处理，确保数据的安全性和可用性。即使在硬件故障或 其他异常情况下，数据也能得到有效的保护，减少数据丢失的风险。</li>
 </ul>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="类型及区别">类型及区别<a href="#类型及区别" class="hash-link" aria-label="类型及区别的直接链接" title="类型及区别的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="类型及区别">类型及区别<a href="#类型及区别" class="hash-link" aria-label="类型及区别的直接链接" title="类型及区别的直接链接" translate="no">​</a></h3>
 <ol>
-<li><strong>gp2</strong>
+<li class=""><strong>gp2</strong>
 <ul>
-<li>早期的通用 SSD 卷类型，其 IOPS 性能与存储容量成正比。默认情况下，每 1GB 存储容量可以提供 3 个 IOPS，最大可达到 16,000
+<li class="">早期的通用 SSD 卷类型，其 IOPS 性能与存储容量成正比。默认情况下，每 1GB 存储容量可以提供 3 个 IOPS，最大可达到 16,000
 个 IOPS。例如，一个 100GB 的 gp2 卷，理论上可以提供 300 个 IOPS。</li>
-<li>适用于大多数通用型工作负载，如开发和测试环境、小型数据库等。</li>
+<li class="">适用于大多数通用型工作负载，如开发和测试环境、小型数据库等。</li>
 </ul>
 </li>
-<li><strong>gp3</strong>
+<li class=""><strong>gp3</strong>
 <ul>
-<li>新一代的通用 SSD 卷类型，在性能和灵活性上有了显著提升。它可以独立配置存储容量、IOPS 和吞吐量，不受存储容量的限制。用户可以根据实际需求，为
+<li class="">新一代的通用 SSD 卷类型，在性能和灵活性上有了显著提升。它可以独立配置存储容量、IOPS 和吞吐量，不受存储容量的限制。用户可以根据实际需求，为
 gp3 卷设置最高达 16,000 个 IOPS 和 1,000MB/s 的吞吐量。</li>
-<li>相比 gp2，gp3 在相同的性能配置下成本更低，适合对性能和成本都有较高要求的工作负载。</li>
+<li class="">相比 gp2，gp3 在相同的性能配置下成本更低，适合对性能和成本都有较高要求的工作负载。</li>
 </ul>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="应用场景">应用场景<a href="#应用场景" class="hash-link" aria-label="应用场景的直接链接" title="应用场景的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="应用场景">应用场景<a href="#应用场景" class="hash-link" aria-label="应用场景的直接链接" title="应用场景的直接链接" translate="no">​</a></h3>
 <ol>
-<li><strong>通用型应用程序</strong>：适用于各种通用型的 Web 应用程序、内容管理系统等。这些应用程序通常需要快速的读写性能来处理用户请求，General
+<li class=""><strong>通用型应用程序</strong>：适用于各种通用型的 Web 应用程序、内容管理系统等。这些应用程序通常需要快速的读写性能来处理用户请求，General
 Purpose SSD 可以满足它们的性能需求。</li>
-<li><strong>开发和测试环境</strong>：在开发和测试阶段，需要快速部署和调整存储资源。General Purpose SSD
+<li class=""><strong>开发和测试环境</strong>：在开发和测试阶段，需要快速部署和调整存储资源。General Purpose SSD
 的成本效益和灵活性使其成为理想的选择，能够帮助开发人员快速搭建和测试应用程序。</li>
-<li><strong>小型数据库</strong>：对于一些小型的关系型数据库（如 MySQL、PostgreSQL）或 NoSQL 数据库（如 MongoDB），General Purpose SSD
+<li class=""><strong>小型数据库</strong>：对于一些小型的关系型数据库（如 MySQL、PostgreSQL）或 NoSQL 数据库（如 MongoDB），General Purpose SSD
 可以提供足够的性能来支持数据的读写操作。</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="使用方法">使用方法<a href="#使用方法" class="hash-link" aria-label="使用方法的直接链接" title="使用方法的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用方法">使用方法<a href="#使用方法" class="hash-link" aria-label="使用方法的直接链接" title="使用方法的直接链接" translate="no">​</a></h3>
 <ol>
-<li><strong>创建 EBS 卷</strong>：可以通过 AWS 管理控制台、AWS CLI 或 AWS SDK 来创建 General Purpose SSD 卷。在创建过程中，需要指定卷的类型（gp2
+<li class=""><strong>创建 EBS 卷</strong>：可以通过 AWS 管理控制台、AWS CLI 或 AWS SDK 来创建 General Purpose SSD 卷。在创建过程中，需要指定卷的类型（gp2
 或 gp3）、存储容量等参数。</li>
-<li><strong>附着到 EC2 实例</strong>：创建好 EBS 卷后，需要将其附着到运行中的 EC2 实例上。这样，实例就可以像使用本地硬盘一样使用 EBS
+<li class=""><strong>附着到 EC2 实例</strong>：创建好 EBS 卷后，需要将其附着到运行中的 EC2 实例上。这样，实例就可以像使用本地硬盘一样使用 EBS
 卷进行数据存储和读写操作。</li>
-<li><strong>格式化和挂载</strong>：在 EC2 实例上，需要对附着的 EBS 卷进行格式化（如使用 ext4、XFS 等文件系统），并将其挂载到指定的目录下，以便应用程序可以访问该卷上的数据。</li>
-</ol></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/VWeiTech/my-website/tree/main/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_CloudFront"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Amazon CloudFront</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EKS"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Amazon EKS</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#基本概念" class="table-of-contents__link toc-highlight">基本概念</a></li><li><a href="#主要特点" class="table-of-contents__link toc-highlight">主要特点</a></li><li><a href="#类型及区别" class="table-of-contents__link toc-highlight">类型及区别</a></li><li><a href="#应用场景" class="table-of-contents__link toc-highlight">应用场景</a></li><li><a href="#使用方法" class="table-of-contents__link toc-highlight">使用方法</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/my-website/zh-Hans/docs/intro">Study Notes</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/my-website/zh-Hans/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/VWeiTech" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+<li class=""><strong>格式化和挂载</strong>：在 EC2 实例上，需要对附着的 EBS 卷进行格式化（如使用 ext4、XFS 等文件系统），并将其挂载到指定的目录下，以便应用程序可以访问该卷上的数据。</li>
+</ol></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/VWeiTech/my-website/tree/main/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EBS_General_Purpose_SSD.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_CloudFront"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Amazon CloudFront</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/my-website/zh-Hans/docs/AWS/AWS-SAA/AWS-SAA-CN/Amazon_EKS"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Amazon EKS</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#基本概念" class="table-of-contents__link toc-highlight">基本概念</a></li><li><a href="#主要特点" class="table-of-contents__link toc-highlight">主要特点</a></li><li><a href="#类型及区别" class="table-of-contents__link toc-highlight">类型及区别</a></li><li><a href="#应用场景" class="table-of-contents__link toc-highlight">应用场景</a></li><li><a href="#使用方法" class="table-of-contents__link toc-highlight">使用方法</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/my-website/zh-Hans/docs/intro">Study Notes</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/my-website/zh-Hans/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/VWeiTech" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
